@@ -1,0 +1,46 @@
+nav {
+    height:90px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+justify-content: space-between;
+align-items:center;
+    }
+.heading {
+        font-family: Ubuntu;
+        font-style: bold;
+        font-size: 36px;
+    
+    }
+.dotm {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.dotm:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+}
+.btn {
+    color:white;
+    background-color: black;
+  
+}
+.subhead {
+    margin-left:100px;
+    margin-top:50px;
+    font-family: Ubuntu;
+    font-size: 36px;
+
+}
+.prcontain {
+    display:flex;
+    justify-content: center;
+}
+.pr {
+    white-space: normal;
+    padding-top:30px;
+    font-family: Roboto;
+    width:80%;
+    font-size: 18px;
+
+}
